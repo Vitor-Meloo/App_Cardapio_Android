@@ -1,0 +1,71 @@
+<resources>
+    <!-- CABEÇALHOS, BOTÕES e HINTS-->
+    <string name="app_name">Menu_Cardapio</string>
+    <string name="text_Header">Cardápio Virtual</string>
+    <string name="text_Explanation">Faça seu pedido selecionando cada prato desejado</string>
+    <string name="text_Header_Appetizes">ENTRADAS</string>
+    <string name="text_Header_Dishes">PRATOS</string>
+    <string name="text_Header_Drinks">BEBIDAS</string>
+    <string name="text_Header_Dessert">SOBREMESAS</string>
+    <string name="text_Header_Box_Observartions">OBSERVAÇÕES:</string>
+    <string name="text_Header_Total_Price">TOTAL A PAGAR</string>
+    <string name="text_Label_Total_Price">R$ 0,00</string>
+    <string name="text_Button_Calculate">CALCULAR</string>
+    <string name="text_Button_Order">FAZER PEDIDO</string>
+    <string name="text_Observation_Hint">Se necessário, escreva observações sobre os pedidos</string>
+    <string name="Msg_Order_Placed">Seu pedido foi enviado para o balcão do restaurante!</string>
+    <string name="Msg_Order_Observations">Pedido feito e observações enviadas!</string>
+    <string name="Validation_NoOrder">Selecione algum item!</string>
+
+    <!-- NOMES, PREÇOS E ACOMPANHAMENTOS DOS PRATOS -->
+    <string name="text_French_Fries">Batata Frita, Queijo e Bacon</string>
+    <string name="text_Price_French_Fries">R$ 7,30</string>
+    <string name="text_Follow_French_Fries">Acompanha: uma porção de batata frita, queijo, e bacon Tempo de espera: 5 minutos</string>
+    <string name="text_Toasts">Torradas com molhos</string>
+    <string name="text_Price_Toasts">R$ 5,40</string>
+    <string name="text_Follow_Toasts">Acompanha: uma porção de torradas com molhos diversos Tempo de espera: 5 minutos</string>
+    <string name="text_Mini_Pastries">Cestinha de Mini Pasteis</string>
+    <string name="text_Price_Mini_Pastries">R$ 6,50</string>
+    <string name="text_Follow_Mini_Pastries">Acompanha: uma cesta com mini pasteis de recheios diversos Tempo de espera: 6 minutos</string>
+    <string name="text_Bruschettas">Bruschettas</string>
+    <string name="text_Price_Bruschettas">R$ 7,50</string>
+    <string name="text_Follow_Bruschettas">Acompanha: Bruschettas de diversos recheios Tempo de espera: 4 minutos</string>
+    <string name="text_Chicken_Breast">Filé de Frango Empanado</string>
+    <string name="text_Price_Chicken_Breast">R$ 16,80</string>
+    <string name="text_Follow_Chicken_Breast">Acompanha: uma porção de arroz, e salada Tempo de espera: 18 minutos</string>
+    <string name="text_Barbecue">Churrasco Misto</string>
+    <string name="text_Price_Barbecue">R$ 19,90</string>
+    <string name="text_Follow_Barbecue">Acompanha: uma porção de arroz, feijão, e vinagrate Tempo de espera: 20 minutos</string>
+    <string name="text_Salpicao">Salpicão</string>
+    <string name="text_Price_Salpicao">R$ 16,40</string>
+    <string name="text_Follow_Salpicao">Acompanha: uma porção de arroz e molho branco Tempo de espera: 17 minutos</string>
+    <string name="text_Steak_In_Sauce">Bife ao Molho Madeira</string>
+    <string name="text_Price_Steak_In_Sauce">R$ 19,00</string>
+    <string name="text_Follow_Steak_In_Sauce">Acompanha: uma porção de arroz, feijão e salada Tempo de espera: 22 minutos</string>
+
+    <!-- NOMES E PREÇOS DAS BEBIDAS -->
+    <string name="text_Coca_Cola">Coca-Cola - Latinha</string>
+    <string name="text_Price_Coca_Cola">R$ 3,80</string>
+    <string name="text_Pepsi">Pepsi - Latinha</string>
+    <string name="text_Price_Pepsi">R$ 3,50</string>
+    <string name="text_Orange_Juice">Suco de Laranja - 250ml</string>
+    <string name="text_Price_Orange_Juice">R$ 2,50</string>
+    <string name="text_Acerola_Juice">Suco de Acerola - 250ml</string>
+    <string name="text_Price_Acerola_Juice">R$ 3,00</string>
+    <string name="text_Mineral_Water">Agua Mineral - 500ml</string>
+    <string name="text_Price_Mineral_Water">R$ 2,00</string>
+
+    <!--NOMES E PREÇOS DAS SOBREMESAS-->
+    <string name="text_Pudding">Pudim de Leite - 200g</string>
+    <string name="text_Price_Pudding">R$ 2,50</string>
+    <string name="text_Lemon_Pie">Torta de Limão - 200g</string>
+    <string name="text_Price_Lemon_Pie">R$ 3,50</string>
+    <string name="text_Brigadeiro">Brigadeiro - 200g</string>
+    <string name="text_Price_Brigadeiro">R$ 3,00</string>
+    <string name="text_Lemon_Mousse">Mousse de Limão - 200g</string>
+    <string name="text_Price_Lemon_Mousse">R$ 3,50</string>
+    <string name="text_Strawberry_Mousse">Mousse de Morango - 200g</string>
+    <string name="text_Price_Strawberry_Mousse">R$ 3,50</string>
+
+</resources>
+

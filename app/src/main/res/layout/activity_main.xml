@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8F1800"
+        android:fontFamily="@font/sansita"
+        android:gravity="center"
+        android:text="@string/text_Header"
+        android:textAllCaps="true"
+        android:textColor="#F5CE69"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_Explanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Header"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/sansita"
+        android:gravity="center"
+        android:text="@string/text_Explanation"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view_lineSeparation"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@id/text_Explanation"
+        android:layout_marginTop="1dp"
+        android:background="@color/black" />
+
+    <ScrollView
+        android:id="@+id/Scroll_Dishes"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/text_Explanation">
+
+        <!--===============================ENTRADAS=================================-->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:id="@+id/text_Header_Appetizes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="#F9E4AB"
+                android:fontFamily="@font/sansita"
+                android:gravity="center"
+                android:text="@string/text_Header_Appetizes"
+                android:textColor="#8F1800"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/check_French_Fries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Header_Appetizes"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_French_Fries"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_French_Fries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_French_Fries"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_French_Fries"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Follow_French_Fries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_French_Fries"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/sansita"
+                android:paddingEnd="5dp"
+                android:text="@string/text_Follow_French_Fries"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/check_Toasts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Follow_French_Fries"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Toasts"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Toasts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Toasts"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Toasts"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Follow_Toasts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Toasts"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/sansita"
+                android:paddingEnd="5dp"
+                android:text="@string/text_Follow_Toasts"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/check_Mini_Pastries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Follow_Toasts"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Mini_Pastries"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Mini_Pastries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Mini_Pastries"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Mini_Pastries"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Follow_Mini_Pastries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Mini_Pastries"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/sansita"
+                android:paddingEnd="5dp"
+                android:text="@string/text_Follow_Mini_Pastries"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/check_Bruschettas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Follow_Mini_Pastries"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Bruschettas"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Bruschettas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Bruschettas"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Bruschettas"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Follow_Bruschettas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Bruschettas"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="80dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Follow_Bruschettas"
+                android:textSize="16sp" />
+
+            <!--================================PRATOS===============================-->
+
+            <TextView
+                android:id="@+id/text_Header_Dishes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Follow_Bruschettas"
+                android:layout_marginTop="4dp"
+                android:background="#F9E4AB"
+                android:fontFamily="@font/sansita"
+                android:gravity="center"
+                android:text="@string/text_Header_Dishes"
+                android:textColor="#8F1800"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <CheckBox
+                android:id="@+id/check_Chicken_Breast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Header_Dishes"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Chicken_Breast"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Chicken_Breast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Chicken_Breast"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Chicken_Breast"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Follow_Chicken_Breast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Chicken_Breast"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/sansita"
+                android:paddingEnd="90dp"
+                android:text="@string/text_Follow_Chicken_Breast"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/check_Barbecue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Follow_Chicken_Breast"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Barbecue"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Barbecue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Barbecue"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Barbecue"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Follow_Barbecue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Barbecue"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/sansita"
+                android:paddingEnd="30dp"
+                android:text="@string/text_Follow_Barbecue"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/check_Steak_In_Sauce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Follow_Barbecue"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Steak_In_Sauce"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Steak_In_Sauce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Steak_In_Sauce"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Steak_In_Sauce"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Follow_Steak_In_Sauce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Steak_In_Sauce"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/sansita"
+                android:paddingEnd="50dp"
+                android:text="@string/text_Follow_Steak_In_Sauce"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/check_Salpicao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Follow_Steak_In_Sauce"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Salpicao"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Salpicao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Salpicao"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Salpicao"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Follow_Salpicao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Salpicao"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/sansita"
+                android:paddingEnd="50dp"
+                android:text="@string/text_Follow_Salpicao"
+                android:textSize="16sp" />
+
+            <!--===============================BEBIDAS =================================-->
+
+            <TextView
+                android:id="@+id/text_Header_Drinks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Follow_Salpicao"
+                android:layout_marginTop="2dp"
+                android:background="#F9E4AB"
+                android:fontFamily="@font/sansita"
+                android:gravity="center"
+                android:text="@string/text_Header_Drinks"
+                android:textColor="#8F1800"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/check_Coca_Cola"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Header_Drinks"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Coca_Cola"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Coca_Cola"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Coca_Cola"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Coca_Cola"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/check_Pepsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Coca_Cola"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Pepsi"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Pepsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Pepsi"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Pepsi"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/check_Orange_Juice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Pepsi"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Orange_Juice"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Orange_Juice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Orange_Juice"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Orange_Juice"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/check_Acerola_Juice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Orange_Juice"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Acerola_Juice"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Acerola_Juic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Acerola_Juice"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Acerola_Juice"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/check_Mineral_Water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Acerola_Juice"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Mineral_Water"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Mineral_Water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Mineral_Water"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Mineral_Water"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <!--===============================SOBREMESAS=================================-->
+
+            <TextView
+                android:id="@+id/text_Header_Desserts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Mineral_Water"
+                android:layout_marginTop="4dp"
+                android:background="#F9E4AB"
+                android:fontFamily="@font/sansita"
+                android:gravity="center"
+                android:text="@string/text_Header_Dessert"
+                android:textColor="#8F1800"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/check_Pudding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_Header_Desserts"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Pudding"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Pudding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Pudding"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Pudding"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/check_Lemon_Pie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Pudding"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Lemon_Pie"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Lemon_Pie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Lemon_Pie"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Lemon_Pie"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/check_Brigadeiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Lemon_Pie"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Brigadeiro"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Brigadeiro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Brigadeiro"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Brigadeiro"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/check_Lemon_Mousse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Brigadeiro"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Lemon_Mousse"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Lemon_Mousse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Lemon_Mousse"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Lemon_Mousse"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+            <CheckBox
+                android:id="@+id/check_Strawberry_Mousse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_Lemon_Mousse"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Strawberry_Mousse"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/text_Price_Strawberry_Mousse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/check_Strawberry_Mousse"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="#F5CE69"
+                android:fontFamily="@font/sansita"
+                android:text="@string/text_Price_Strawberry_Mousse"
+                android:textColor="#8F1800"
+                android:textSize="22sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/view_lineSeparation_2"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@id/Scroll_Dishes"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/text_Observations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_lineSeparation_2"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/sansita"
+        android:text="@string/text_Header_Box_Observartions"
+        android:textColor="#DF5605"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_Observations"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/text_Observations"
+        android:fontFamily="@font/sansita"
+        android:gravity="top|start"
+        android:hint="@string/text_Observation_Hint"
+        android:inputType="textMultiLine"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/text_Total_Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_Observations"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/sansita"
+        android:text="@string/text_Header_Total_Price"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_Label_Total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Total_Price"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/sansita"
+        android:text="@string/text_Label_Total_Price"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Label_Total"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#B0DF5605"
+        android:fontFamily="@font/sansita"
+        android:text="@string/text_Button_Calculate"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/button_Order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Label_Total"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#648908"
+        android:fontFamily="@font/sansita"
+        android:text="@string/text_Button_Order"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
+
+</RelativeLayout>
