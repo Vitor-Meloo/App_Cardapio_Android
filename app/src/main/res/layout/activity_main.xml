@@ -12,12 +12,12 @@
         android:id="@+id/text_Header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#8F1800"
+        android:background="@color/Red"
         android:fontFamily="@font/sansita"
         android:gravity="center"
         android:text="@string/text_Header"
         android:textAllCaps="true"
-        android:textColor="#F5CE69"
+        android:textColor="@color/Yellow"
         android:textSize="28dp"
         android:textStyle="bold" />
 
@@ -61,11 +61,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:background="#F9E4AB"
+                android:background="@color/Soft_Yellow"
                 android:fontFamily="@font/sansita"
                 android:gravity="center"
                 android:text="@string/text_Header_Appetizes"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -86,10 +86,10 @@
                 android:layout_alignBaseline="@id/check_French_Fries"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_French_Fries"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <TextView
@@ -122,10 +122,10 @@
                 android:layout_alignBaseline="@id/check_Toasts"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Toasts"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <TextView
@@ -158,10 +158,10 @@
                 android:layout_alignBaseline="@id/check_Mini_Pastries"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Mini_Pastries"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <TextView
@@ -194,10 +194,10 @@
                 android:layout_alignBaseline="@id/check_Bruschettas"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Bruschettas"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <TextView
@@ -220,11 +220,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/text_Follow_Bruschettas"
                 android:layout_marginTop="4dp"
-                android:background="#F9E4AB"
+                android:background="@color/Soft_Yellow"
                 android:fontFamily="@font/sansita"
                 android:gravity="center"
                 android:text="@string/text_Header_Dishes"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -247,10 +247,10 @@
                 android:layout_alignBaseline="@id/check_Chicken_Breast"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Chicken_Breast"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <TextView
@@ -283,10 +283,10 @@
                 android:layout_alignBaseline="@id/check_Barbecue"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Barbecue"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <TextView
@@ -319,10 +319,10 @@
                 android:layout_alignBaseline="@id/check_Steak_In_Sauce"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Steak_In_Sauce"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <TextView
@@ -355,10 +355,10 @@
                 android:layout_alignBaseline="@id/check_Salpicao"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Salpicao"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <TextView
@@ -381,11 +381,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/text_Follow_Salpicao"
                 android:layout_marginTop="2dp"
-                android:background="#F9E4AB"
+                android:background="@color/Soft_Yellow"
                 android:fontFamily="@font/sansita"
                 android:gravity="center"
                 android:text="@string/text_Header_Drinks"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -407,10 +407,10 @@
                 android:layout_alignBaseline="@id/check_Coca_Cola"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Coca_Cola"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <CheckBox
@@ -431,10 +431,10 @@
                 android:layout_alignBaseline="@id/check_Pepsi"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Pepsi"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <CheckBox
@@ -455,10 +455,10 @@
                 android:layout_alignBaseline="@id/check_Orange_Juice"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Orange_Juice"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <CheckBox
@@ -479,10 +479,10 @@
                 android:layout_alignBaseline="@id/check_Acerola_Juice"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Acerola_Juice"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <CheckBox
@@ -503,10 +503,10 @@
                 android:layout_alignBaseline="@id/check_Mineral_Water"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Mineral_Water"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <!--===============================SOBREMESAS=================================-->
@@ -517,11 +517,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/check_Mineral_Water"
                 android:layout_marginTop="4dp"
-                android:background="#F9E4AB"
+                android:background="@color/Soft_Yellow"
                 android:fontFamily="@font/sansita"
                 android:gravity="center"
                 android:text="@string/text_Header_Dessert"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -543,10 +543,10 @@
                 android:layout_alignBaseline="@id/check_Pudding"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Pudding"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <CheckBox
@@ -567,10 +567,10 @@
                 android:layout_alignBaseline="@id/check_Lemon_Pie"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Lemon_Pie"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <CheckBox
@@ -591,10 +591,10 @@
                 android:layout_alignBaseline="@id/check_Brigadeiro"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Brigadeiro"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <CheckBox
@@ -615,10 +615,10 @@
                 android:layout_alignBaseline="@id/check_Lemon_Mousse"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Lemon_Mousse"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
             <CheckBox
@@ -639,10 +639,10 @@
                 android:layout_alignBaseline="@id/check_Strawberry_Mousse"
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
-                android:background="#F5CE69"
+                android:background="@color/Yellow"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Price_Strawberry_Mousse"
-                android:textColor="#8F1800"
+                android:textColor="@color/Red"
                 android:textSize="22sp" />
 
         </RelativeLayout>
@@ -665,7 +665,7 @@
         android:layout_marginTop="6dp"
         android:fontFamily="@font/sansita"
         android:text="@string/text_Header_Box_Observartions"
-        android:textColor="#DF5605"
+        android:textColor="@color/Orange"
         android:textSize="22sp"
         android:textStyle="bold" />
 
@@ -715,7 +715,7 @@
         android:layout_below="@id/text_Label_Total"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        android:backgroundTint="#B0DF5605"
+        android:backgroundTint="@color/Orange"
         android:fontFamily="@font/sansita"
         android:text="@string/text_Button_Calculate"
         android:textColor="@color/black"
@@ -729,7 +729,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
-        android:backgroundTint="#648908"
+        android:backgroundTint="@color/Green"
         android:fontFamily="@font/sansita"
         android:text="@string/text_Button_Order"
         android:textColor="@color/black"
