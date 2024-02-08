@@ -32,6 +32,7 @@
         android:gravity="center"
         android:text="@string/text_Explanation"
         android:textSize="18dp"
+        android:textColor="@color/black"
         android:textStyle="bold" />
 
     <View
@@ -75,6 +76,7 @@
                 android:layout_below="@id/text_Header_Appetizes"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_French_Fries"
+                android:textColor="@color/black"
                 android:textSize="22sp" />
 
             <TextView
@@ -99,7 +101,8 @@
                 android:fontFamily="@font/sansita"
                 android:paddingEnd="5dp"
                 android:text="@string/text_Follow_French_Fries"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textColor="@color/black" />
 
             <CheckBox
                 android:id="@+id/check_Toasts"
@@ -109,7 +112,8 @@
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
                 android:text="@string/text_Toasts"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/text_Price_Toasts"
@@ -132,6 +136,7 @@
                 android:layout_marginStart="5dp"
                 android:fontFamily="@font/sansita"
                 android:paddingEnd="5dp"
+                android:textColor="@color/black"
                 android:text="@string/text_Follow_Toasts"
                 android:textSize="16sp" />
 
@@ -142,6 +147,7 @@
                 android:layout_below="@id/text_Follow_Toasts"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Mini_Pastries"
                 android:textSize="22sp" />
 
@@ -166,6 +172,7 @@
                 android:layout_marginStart="5dp"
                 android:fontFamily="@font/sansita"
                 android:paddingEnd="5dp"
+                android:textColor="@color/black"
                 android:text="@string/text_Follow_Mini_Pastries"
                 android:textSize="16sp" />
 
@@ -176,6 +183,7 @@
                 android:layout_below="@id/text_Follow_Mini_Pastries"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Bruschettas"
                 android:textSize="22sp" />
 
@@ -200,6 +208,7 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginEnd="80dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Follow_Bruschettas"
                 android:textSize="16sp" />
 
@@ -227,6 +236,7 @@
                 android:layout_below="@id/text_Header_Dishes"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Chicken_Breast"
                 android:textSize="22sp" />
 
@@ -250,6 +260,7 @@
                 android:layout_below="@id/check_Chicken_Breast"
                 android:layout_marginStart="5dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:paddingEnd="90dp"
                 android:text="@string/text_Follow_Chicken_Breast"
                 android:textSize="16sp" />
@@ -261,6 +272,7 @@
                 android:layout_below="@id/text_Follow_Chicken_Breast"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Barbecue"
                 android:textSize="22sp" />
 
@@ -284,6 +296,7 @@
                 android:layout_below="@id/check_Barbecue"
                 android:layout_marginStart="5dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:paddingEnd="30dp"
                 android:text="@string/text_Follow_Barbecue"
                 android:textSize="16sp" />
@@ -295,6 +308,7 @@
                 android:layout_below="@id/text_Follow_Barbecue"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Steak_In_Sauce"
                 android:textSize="22sp" />
 
@@ -318,6 +332,7 @@
                 android:layout_below="@id/check_Steak_In_Sauce"
                 android:layout_marginStart="5dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:paddingEnd="50dp"
                 android:text="@string/text_Follow_Steak_In_Sauce"
                 android:textSize="16sp" />
@@ -329,6 +344,7 @@
                 android:layout_below="@id/text_Follow_Steak_In_Sauce"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Salpicao"
                 android:textSize="22sp" />
 
@@ -352,6 +368,7 @@
                 android:layout_below="@id/check_Salpicao"
                 android:layout_marginStart="5dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:paddingEnd="50dp"
                 android:text="@string/text_Follow_Salpicao"
                 android:textSize="16sp" />
@@ -379,6 +396,7 @@
                 android:layout_below="@id/text_Header_Drinks"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Coca_Cola"
                 android:textSize="22sp" />
 
@@ -402,6 +420,7 @@
                 android:layout_below="@id/check_Coca_Cola"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Pepsi"
                 android:textSize="22sp" />
 
@@ -425,6 +444,7 @@
                 android:layout_below="@id/check_Pepsi"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Orange_Juice"
                 android:textSize="22sp" />
 
@@ -448,11 +468,12 @@
                 android:layout_below="@id/check_Orange_Juice"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Acerola_Juice"
                 android:textSize="22sp" />
 
             <TextView
-                android:id="@+id/text_Price_Acerola_Juic"
+                android:id="@+id/text_Price_Acerola_Juice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/check_Acerola_Juice"
@@ -471,6 +492,7 @@
                 android:layout_below="@id/check_Acerola_Juice"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Mineral_Water"
                 android:textSize="22sp" />
 
@@ -510,6 +532,7 @@
                 android:layout_below="@id/text_Header_Desserts"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Pudding"
                 android:textSize="22sp" />
 
@@ -533,6 +556,7 @@
                 android:layout_below="@id/check_Pudding"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Lemon_Pie"
                 android:textSize="22sp" />
 
@@ -556,6 +580,7 @@
                 android:layout_below="@id/check_Lemon_Pie"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Brigadeiro"
                 android:textSize="22sp" />
 
@@ -579,6 +604,7 @@
                 android:layout_below="@id/check_Brigadeiro"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Lemon_Mousse"
                 android:textSize="22sp" />
 
@@ -602,6 +628,7 @@
                 android:layout_below="@id/check_Lemon_Mousse"
                 android:layout_marginTop="4dp"
                 android:fontFamily="@font/sansita"
+                android:textColor="@color/black"
                 android:text="@string/text_Strawberry_Mousse"
                 android:textSize="22sp" />
 
@@ -650,6 +677,7 @@
         android:fontFamily="@font/sansita"
         android:gravity="top|start"
         android:hint="@string/text_Observation_Hint"
+        android:textColor="@color/black"
         android:inputType="textMultiLine"
         android:textSize="18sp"
         android:textStyle="italic" />
@@ -662,6 +690,7 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="6dp"
         android:fontFamily="@font/sansita"
+        android:textColor="@color/black"
         android:text="@string/text_Header_Total_Price"
         android:textSize="26sp"
         android:textStyle="bold" />
@@ -674,6 +703,7 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="2dp"
         android:fontFamily="@font/sansita"
+        android:textColor="@color/black"
         android:text="@string/text_Label_Total_Price"
         android:textSize="34dp"
         android:textStyle="bold" />
