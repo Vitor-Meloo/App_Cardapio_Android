@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.buttonOrder.setOnClickListener(this)
 
         checkboxPrices[R.id.check_French_Fries] = 7.30f
-        checkboxPrices[R.id.check_Toasts] = 5.40f
+        checkboxPrices[R.id.check_Nachos] = 5.40f
         checkboxPrices[R.id.check_Mini_Pastries] = 6.50f
         checkboxPrices[R.id.check_Bruschettas] = 7.40f
         checkboxPrices[R.id.check_Chicken_Breast] = 16.80f

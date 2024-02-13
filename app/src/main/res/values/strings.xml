@@ -17,31 +17,33 @@
     <string name="Msg_Order_Observations">Pedido feito e observações enviadas!</string>
     <string name="Validation_NoOrder">Selecione algum item!</string>
 
-    <!-- NOMES, PREÇOS E ACOMPANHAMENTOS DOS PRATOS -->
+    <!-- NOMES E PREÇOS DAS ENTRADAS -->
     <string name="text_French_Fries">Batata Frita, Queijo e Bacon</string>
-    <string name="text_Price_French_Fries">R$ 7,30</string>
+    <string name="text_Price_French_Fries">VALOR: R$ 7,30</string>
     <string name="text_Follow_French_Fries">Acompanha: uma porção de batata frita, queijo, e bacon Tempo de espera: 5 minutos</string>
-    <string name="text_Toasts">Torradas com molhos</string>
-    <string name="text_Price_Toasts">R$ 5,40</string>
-    <string name="text_Follow_Toasts">Acompanha: uma porção de torradas com molhos diversos Tempo de espera: 5 minutos</string>
+    <string name="text_Nachos">Nachos com molhos</string>
+    <string name="text_Price_Nachos">VALOR: R$ 5,40</string>
+    <string name="text_Follow_Nachos">Acompanha: uma porção de nachos com molhos diversos Tempo de espera: 5 minutos</string>
     <string name="text_Mini_Pastries">Cestinha de Mini Pasteis</string>
     <string name="text_Price_Mini_Pastries">R$ 6,50</string>
     <string name="text_Follow_Mini_Pastries">Acompanha: uma cesta com mini pasteis de recheios diversos Tempo de espera: 6 minutos</string>
-    <string name="text_Bruschettas">Bruschettas</string>
+    <string name="text_Bruschettas">Bruschettas com molhos</string>
     <string name="text_Price_Bruschettas">R$ 7,50</string>
     <string name="text_Follow_Bruschettas">Acompanha: Bruschettas de diversos recheios Tempo de espera: 4 minutos</string>
     <string name="text_Chicken_Breast">Filé de Frango Empanado</string>
+
+    <!-- NOMES, PREÇOS E ACOMPANHAMENTOS DOS PRATOS -->
     <string name="text_Price_Chicken_Breast">R$ 16,80</string>
-    <string name="text_Follow_Chicken_Breast">Acompanha: uma porção de arroz, e salada Tempo de espera: 18 minutos</string>
+    <string name="text_Follow_Chicken_Breast">Acompanha: uma porção de arroz e salada Tempo de espera: 18 minutos</string>
     <string name="text_Barbecue">Churrasco Misto</string>
     <string name="text_Price_Barbecue">R$ 19,90</string>
     <string name="text_Follow_Barbecue">Acompanha: uma porção de arroz, feijão, e vinagrate Tempo de espera: 20 minutos</string>
-    <string name="text_Salpicao">Salpicão</string>
-    <string name="text_Price_Salpicao">R$ 16,40</string>
-    <string name="text_Follow_Salpicao">Acompanha: uma porção de arroz e molho branco Tempo de espera: 17 minutos</string>
     <string name="text_Steak_In_Sauce">Bife ao Molho Madeira</string>
     <string name="text_Price_Steak_In_Sauce">R$ 19,00</string>
     <string name="text_Follow_Steak_In_Sauce">Acompanha: uma porção de arroz, feijão e salada Tempo de espera: 22 minutos</string>
+    <string name="text_Salpicao">Salpicão</string>
+    <string name="text_Price_Salpicao">R$ 16,40</string>
+    <string name="text_Follow_Salpicao">Acompanha: uma porção de arroz e molho branco Tempo de espera: 17 minutos</string>
 
     <!-- NOMES E PREÇOS DAS BEBIDAS -->
     <string name="text_Coca_Cola">Coca-Cola - Latinha</string>
