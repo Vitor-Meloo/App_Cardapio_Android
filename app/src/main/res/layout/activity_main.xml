@@ -26,18 +26,9 @@
 
     <TextView
         android:id="@+id/text_Header"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_below="@id/view_Line_Separation_Logo"
-        android:background="@color/black"
-        android:fontFamily="@font/sansita"
-        android:gravity="center"
-        android:letterSpacing="0.2"
         android:text="@string/text_Header"
-        android:textAllCaps="true"
-        android:textColor="@color/Yellow"
-        android:textSize="28dp"
-        android:textStyle="bold" />
+        style="@style/style_Top_Header" />
 
     <TextView
         android:id="@+id/text_Explanation"
