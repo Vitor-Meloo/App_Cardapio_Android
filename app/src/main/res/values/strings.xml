@@ -25,49 +25,49 @@
     <string name="text_Price_Nachos">VALOR: R$ 5,40</string>
     <string name="text_Follow_Nachos">Acompanha: uma porção de nachos com molhos diversos Tempo de espera: 5 minutos</string>
     <string name="text_Mini_Pastries">Cestinha de Mini Pasteis</string>
-    <string name="text_Price_Mini_Pastries">R$ 6,50</string>
+    <string name="text_Price_Mini_Pastries">VALOR: R$ 6,50</string>
     <string name="text_Follow_Mini_Pastries">Acompanha: uma cesta com mini pasteis de recheios diversos Tempo de espera: 6 minutos</string>
     <string name="text_Bruschettas">Bruschettas com molhos</string>
-    <string name="text_Price_Bruschettas">R$ 7,50</string>
+    <string name="text_Price_Bruschettas">VALOR: R$ 7,50</string>
     <string name="text_Follow_Bruschettas">Acompanha: Bruschettas de diversos recheios Tempo de espera: 4 minutos</string>
     <string name="text_Chicken_Breast">Filé de Frango Empanado</string>
 
     <!-- NOMES, PREÇOS E ACOMPANHAMENTOS DOS PRATOS -->
-    <string name="text_Price_Chicken_Breast">R$ 16,80</string>
+    <string name="text_Price_Chicken_Breast">VALOR: R$ 16,80</string>
     <string name="text_Follow_Chicken_Breast">Acompanha: uma porção de arroz e salada Tempo de espera: 18 minutos</string>
     <string name="text_Barbecue">Churrasco Misto</string>
-    <string name="text_Price_Barbecue">R$ 19,90</string>
+    <string name="text_Price_Barbecue">VALOR: R$ 19,90</string>
     <string name="text_Follow_Barbecue">Acompanha: uma porção de arroz, feijão, e vinagrate Tempo de espera: 20 minutos</string>
     <string name="text_Steak_In_Sauce">Bife ao Molho Madeira</string>
-    <string name="text_Price_Steak_In_Sauce">R$ 19,00</string>
+    <string name="text_Price_Steak_In_Sauce">VALOR: R$ 19,00</string>
     <string name="text_Follow_Steak_In_Sauce">Acompanha: uma porção de arroz, feijão e salada Tempo de espera: 22 minutos</string>
     <string name="text_Salpicao">Salpicão</string>
-    <string name="text_Price_Salpicao">R$ 16,40</string>
+    <string name="text_Price_Salpicao">VALOR: R$ 16,40</string>
     <string name="text_Follow_Salpicao">Acompanha: uma porção de arroz e molho branco Tempo de espera: 17 minutos</string>
 
     <!-- NOMES E PREÇOS DAS BEBIDAS -->
     <string name="text_Coca_Cola">Coca-Cola - Latinha</string>
-    <string name="text_Price_Coca_Cola">R$ 3,80</string>
+    <string name="text_Price_Coca_Cola">VALOR: R$ 3,80</string>
     <string name="text_Pepsi">Pepsi - Latinha</string>
-    <string name="text_Price_Pepsi">R$ 3,50</string>
+    <string name="text_Price_Pepsi">VALOR: R$ 3,50</string>
     <string name="text_Orange_Juice">Suco de Laranja - 250ml</string>
-    <string name="text_Price_Orange_Juice">R$ 2,50</string>
+    <string name="text_Price_Orange_Juice">VALOR: R$ 2,50</string>
     <string name="text_Acerola_Juice">Suco de Acerola - 250ml</string>
-    <string name="text_Price_Acerola_Juice">R$ 3,00</string>
+    <string name="text_Price_Acerola_Juice">VALOR: R$ 3,00</string>
     <string name="text_Mineral_Water">Agua Mineral - 500ml</string>
-    <string name="text_Price_Mineral_Water">R$ 2,00</string>
+    <string name="text_Price_Mineral_Water">VALOR: R$ 2,00</string>
 
     <!--NOMES E PREÇOS DAS SOBREMESAS-->
     <string name="text_Pudding">Pudim de Leite - 200g</string>
-    <string name="text_Price_Pudding">R$ 2,50</string>
+    <string name="text_Price_Pudding">VALOR: R$ 2,50</string>
     <string name="text_Lemon_Pie">Torta de Limão - 200g</string>
-    <string name="text_Price_Lemon_Pie">R$ 3,50</string>
+    <string name="text_Price_Lemon_Pie">VALOR: R$ 3,50</string>
     <string name="text_Brigadeiro">Brigadeiro - 200g</string>
-    <string name="text_Price_Brigadeiro">R$ 3,00</string>
+    <string name="text_Price_Brigadeiro">VALOR: R$ 3,00</string>
     <string name="text_Lemon_Mousse">Mousse de Limão - 200g</string>
-    <string name="text_Price_Lemon_Mousse">R$ 3,50</string>
+    <string name="text_Price_Lemon_Mousse">VALOR: R$ 3,50</string>
     <string name="text_Strawberry_Mousse">Mousse de Morango - 200g</string>
-    <string name="text_Price_Strawberry_Mousse">R$ 3,50</string>
+    <string name="text_Price_Strawberry_Mousse">VALOR: R$ 3,50</string>
 
 </resources>
 
