@@ -52,11 +52,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         if (view.id == R.id.button_Order && validCalculate != 1) {
             if (checkboxSelected()) {
                 if (observationsText.isEmpty()) {
-                    Toast.makeText(this, R.string.Msg_Order_Placed, Toast.LENGTH_LONG)
-                        .show()
+                    Toast.makeText(this, R.string.Msg_Order_Placed, Toast.LENGTH_LONG).show()
                 } else {
-                    Toast.makeText(this, R.string.Msg_Order_Observations, Toast.LENGTH_LONG)
-                        .show()
+                    Toast.makeText(this, R.string.Msg_Order_Observations, Toast.LENGTH_LONG).show()
                 }
             } else {
                 Toast.makeText(this, R.string.Validation_NoOrder, Toast.LENGTH_SHORT).show()
